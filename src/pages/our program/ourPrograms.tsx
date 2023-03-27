@@ -7,9 +7,9 @@ const OurPrograms: FC = () => {
         <div className={styles.container}>
             <p className={styles.title}>Our Programs</p>
             <div className={styles.contentContainer}>
-                <Image src={require('../../../assets/backgroundImage/Program 1.png')} alt="program 1" className={styles.program} />
-                <Image src={require('../../../assets/backgroundImage/Program 2.png')} alt="program 1" className={styles.program} />
-                <Image src={require('../../../assets/backgroundImage/Program 3.png')} alt="program 1" className={styles.program} />
+                <Image src={require('../../../assets/backgroundImage/Program1.png')} alt="program 1" className={styles.program} />
+                <Image src={require('../../../assets/backgroundImage/Program2.png')} alt="program 1" className={styles.program} />
+                <Image src={require('../../../assets/backgroundImage/Program3.png')} alt="program 1" className={styles.program} />
             </div>
         </div>
     )

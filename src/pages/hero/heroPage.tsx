@@ -15,15 +15,15 @@ const HeroPage: FC = () => {
                     <button className={styles.button}><p className={styles.buttonText}>Get to know B2Brave</p></button>
                     </div>
                     <div className={styles.arrowContainer}>
-                        <Image src={require('../../../assets/backgroundImage/Arrow Down.png')} alt='arrow under' className={styles.arrow} />
+                        <Image src={require('../../../assets/backgroundImage/ArrowDown.png')} alt='arrow under' className={styles.arrow} />
                     </div>
                 </div>
                 <div className={styles.logoContainer}>
                     <Image src={require('../../../assets/backgroundImage/Rectangle.png')} alt='logo 2' className={styles.logo} width={600}/>
-                    <Image src={require('../../../assets/backgroundImage/Rectengle Shadow.png')} alt='logo 2 shadow' className={styles.logoShadow} width={600}/>
+                    <Image src={require('../../../assets/backgroundImage/RectengleShadow.png')} alt='logo 2 shadow' className={styles.logoShadow} width={600}/>
                 </div>
             </div>
-            <Image src={require('../../../assets/backgroundImage/Ellipse 1.png')} alt='' className={styles.eclipse}/>
+            <Image src={require('../../../assets/backgroundImage/Ellipse1.png')} alt='' className={styles.eclipse}/>
         </div>
     )
 }

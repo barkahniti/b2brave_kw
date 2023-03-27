@@ -15,7 +15,7 @@ const MainRouter: FC = () => {
       <header className={styles.nav}>
         <nav className={styles.nav__container__actions}>
             <div className={styles.nav__list}>
-            <Image src={require('../../../../assets/backgroundImage/B2Brave logo text 1.png')} alt='logo' className={styles.logo} />
+            <Image src={require('../../../../assets/backgroundImage/B2Bravelogotext1.png')} alt='logo' className={styles.logo} />
             <ul className={styles.router__ul}>
                 <Link activeClass={styles.router__li__active} smooth spy to="home" offset={50} className={styles.router__li}>
                     Home
