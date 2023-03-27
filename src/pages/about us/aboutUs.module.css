@@ -1,7 +1,65 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.google.com/specimen/Inter');
+}
+
 .container{
     position: relative;
     width: 100%;
     height: inherit;
+}
+
+.contentContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50vh;
+    gap: 4rem;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 5vh;
+    gap: 2rem;
+    padding-top: 10vh;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.065em;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}   
+
+.paragraf{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 34px;
+    text-align: justify;
+    letter-spacing: -0.065em;
+    color: #FFFFFF;
+}
+
+.photoContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.photo{
+    width: 90%;
+    object-fit: scale-down;
 }
 
 .beveledCone{
@@ -14,41 +72,43 @@
 .chain{
     position: absolute;
     flex: auto;
-    top: 64.1%;
-    left: 63.5%;
+    top: 58.1%;
+    left: 49.5%;
 }
 
 .ellipticalBangle{
     position: absolute;
     flex: auto;
-    top: 83.2%;
-    left: 5.2%;
+    top: 26.2%;
+    left: -4%;
 }
 
 .sharpDonut{
     position: absolute;
-    flex: auto;
-    top: 50.5%;
-    left: 85%;
+    width: 43vh;
+    object-fit: none;
+    top: 44.5%;
+    left: 80%;
 }
 
 .wideHalfRing{
     position: absolute;
     flex: auto;
-    top: 66.4%;
-    left: 0.3%;
+    top: 64.4%;
+    left: -2%;
 }
 
 .wireframeCylinder{
     position: absolute;
-    flex: auto;
+    width: 38vh;
     top: 1.7%;
-    left: 85%;
+    left: 82%;
+    object-fit: none;
 }
 
 .wireframeSphere{
     position: absolute;
     flex: auto;
-    top: 9.4%;
-    left: 32.9%;
+    top: 16%;
+    left: 32%;
 }

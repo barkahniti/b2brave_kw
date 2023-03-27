@@ -60,11 +60,64 @@
 .router__li:hover {
     border-bottom: 0.2rem solid #5F4698;
 }
+
+.router__li__active {
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: #5F4698;
+    border-bottom: 0.2rem solid #5F4698;
+}
   
 .router__section {
     display: grid;
     place-items: center;
     height: 120vh;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    opacity: 1;
+}
+
+.router__section__aboutUs {
+    display: grid;
+    place-items: center;
+    height: 200vh;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    opacity: 1;
+}
+
+.router__section__ourProgram {
+    display: grid;
+    place-items: center;
+    height: 160vh;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    opacity: 1;
+}
+
+.router__section__joruney {
+    display: grid;
+    place-items: center;
+    height: 250vh;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    opacity: 1;
+}
+
+.router__section__member {
+    display: grid;
+    place-items: center;
+    height: 140vh;
     font-size: 32px;
     font-weight: bold;
     z-index: 2;

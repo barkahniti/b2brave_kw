@@ -1,0 +1,56 @@
+.circleContainer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.065em;
+    color: #9B3B8C;
+    z-index: 1;
+}
+
+.memberContainer{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-items: center;
+    width: 90vw;
+}
+
+.member{
+    width: 25%;
+    object-fit: scale-down;
+}
+
+.circle1{
+    position: absolute;
+    left: -48%;
+    top: 0%;
+    object-fit: scale-down;
+}
+
+.circle2{
+    position: absolute;
+    width: 9%;
+    left: 91%;
+    top: 0%;
+    object-position: 0;
+    object-fit: none;
+}
