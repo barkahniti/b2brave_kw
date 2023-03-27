@@ -1,0 +1,15 @@
+.backgroundImage {
+    flex: auto;
+    height: 6529px;
+    width: inherit;
+    background-color: #FFFFFF;
+}
+
+.image {
+    position: absolute;
+    z-index: 0;
+    height: inherit;
+    width: 100%;
+    opacity: 0.4;
+    background-image: url('../../../../../assets/backgroundImage/background.png');
+}

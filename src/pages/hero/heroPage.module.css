@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.google.com/specimen/Inter');
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+}
+
+.textContainer{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #5F4698;
+}
+
+.titleUnderlined{
+    text-decoration: underline;
+}
+
+.content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 5vh;
+    line-height: 2.5rem;
+    letter-spacing: -0.065em;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 29px;
+    gap: 10px;
+    background: #5F4698;
+    box-shadow: 4px 8px 0px #483080;
+    border-radius: 50px;
+    width: 18rem;
+    height: 3rem;
+    border-width: 0;
+}
+
+.buttonText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: -0.065em;
+    color: white;
+}
+
+.arrowContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.arrow{
+    margin-top: 5vh;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+
+.logo{
+    z-index: 1;
+    height: 70vh;
+    object-fit: none;
+    padding: 0;
+}
+
+.logoShadow{
+    z-index: 1;
+    width: 30vw;
+    height: 50px;
+    object-fit: none;
+}
+
+.eclipse{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    object-fit:scale-down;
+    object-position: 0;
+}

@@ -1,0 +1,19 @@
+.container{
+    width: inherit;
+}
+
+.rectangle{
+    position: absolute;
+    width: 100%;
+    top: 170vh;
+    object-fit: none;
+    object-position: 0;
+}
+
+.vector{
+    position: absolute;
+    width: 100%;
+    object-position: -182.5;
+    top: 3396px;
+    object-fit: none;
+}
